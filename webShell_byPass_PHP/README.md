@@ -30,7 +30,7 @@ go run string2Symbols.go
 
 <img src="pic/Snipaste_2021-02-05_01-08-22.png" width="80%" height="80%" />
 
-### 生成预览
+### 生成预览（assert一句话）
 
 ```php
 <?php
@@ -48,7 +48,7 @@ $a($c['key']);
 ## tips
 
 1. assert()函数对应一些php版本不适用的问题
-2. eval()不能像其他函数一样进行函数名替换
+2. eval() 因为是一个语言构造器而不是一个函数，不能被**可变函数**调用。
 
 ### Reference
 
